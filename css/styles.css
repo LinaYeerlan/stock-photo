@@ -1,0 +1,406 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+.container {
+    margin: 0 1rem;
+}
+
+h1 {
+    display: none;
+}
+
+header {
+    background-color: #2C3E5B;
+}
+
+header svg {
+    width: 2rem;
+    fill: #9C9DA0;
+    /* padding: 0.75rem 0; */
+}
+
+header > div > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 3.5;
+    text-transform: uppercase;
+    z-index: 3;
+}
+
+nav {
+    position: absolute;
+    text-align: center;
+    background-color: #2C3E5B;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    display: none;
+}
+
+.show-nav {
+    display: block;
+}
+
+main > div {
+    margin-bottom: 3rem;
+}
+
+/******************* banner *********************/
+.banner {
+    background-image: url(../img/waterfall.jpg);
+    background-size: cover;
+    color: #fff;
+    text-transform: uppercase;
+    padding-top: 30%;
+    padding-bottom: 20%;
+}
+
+.banner h2 {
+    display: none;
+}
+
+.banner p:first-of-type {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.banner span {
+    display: block;
+    font-family: 'Piazzolla', serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #D5D4CF;
+    font-size: 1.5rem;
+    text-transform: none;
+}
+
+input {
+    width: 100%;
+    height: 2.375rem;
+    border: none;
+    border-radius: 2px;
+    background-image: url(../img/search.svg);
+    background-size: 1.125rem;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    padding-left: 2rem;
+    margin: 1rem 0;
+}
+
+.banner p:last-of-type {
+    font-size: 0.75rem;
+}
+
+.banner a {
+    color: #fff;
+    font-weight: 700;
+}
+
+/********************** blog content ********************/
+h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: 700;
+    color: #2C3E5B;
+    text-transform: uppercase;
+}
+
+.blog-content div:first-of-type {
+    background-color: #F9F8F7;
+}
+.blog-content div:last-of-type {
+    background-color: #2C3E5B;
+    padding: 2rem 1rem 3rem 1rem;
+}
+
+.blog-content h2,
+.blog-content p {
+    color: #fff;
+}
+
+.blog-content section {
+    margin: 1rem 0;
+}
+
+.svg-img {
+    padding: 3rem 0;
+}
+
+.svg-img svg {
+    display: block;
+    margin: auto;
+    width: 7rem;
+}
+
+/******************** testimonial **********************/
+.testimonials {
+    background-color: #F9F8F7;
+    margin-top: 3rem;
+    padding: 3rem 0;
+}
+
+.testimonials p {
+    font-family: 'Piazzolla', serif;
+    font-style: italic;
+    color: #2C3E5B;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.testimonials span {
+    display: block;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+.testimonials img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+/******************* browse by keyword *****************/
+.browse div:first-of-type {
+    background-image: url(../img/blue-landscape.jpg);
+}
+
+.browse div:nth-of-type(2){
+    background-image: url(../img/clock.jpg);
+}
+
+.browse div:nth-of-type(3) {
+    background-image: url(../img/elegant-red-formal-fashion.jpg);
+}
+
+.browse div:nth-of-type(4) {
+    background-image: url(../img/four-friends.jpg);
+}
+
+.browse div:nth-of-type(5) {
+    background-image: url(../img/dark-wall-bedside-table.jpg);
+}
+
+.browse div:nth-of-type(6) {
+    background-image: url(../img/laptop.jpg);
+}
+
+.browse div:nth-of-type(7) {
+    background-image: url(../img/ramen.jpg);
+}
+
+.browse div:nth-of-type(8) {
+    background-image: url(../img/sunset.jpg);
+}
+
+.browse div:nth-of-type(9) {
+    background-image: url(../img/dog-paws.jpg);
+}
+
+.browse div:last-of-type {
+    background-image: url(../img/standing-in-woods.jpg);
+}
+
+.browse h2 {
+    line-height: 3;
+    width: 100%;
+}
+
+.browse section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.browse div {
+    background-size: cover;
+    width: 50%;
+    padding: 1.5rem 0;
+}
+
+.browse a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Piazzolla', serif;
+    font-style: italic;
+    font-size: 1.25rem;
+}
+
+.browse p{
+    text-align: center;
+}
+
+.browse a span {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25rem;
+    hyphens: auto;
+    text-transform: uppercase;
+    line-height: 1.75;
+}
+
+/********************** statistics *************/
+.statistics {
+    background-color: #F9F8F7;
+    padding: 2rem 0;
+}
+
+.statistics p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.statistics span {
+    display: block;
+    font-size: 2.25rem;
+}
+
+.statistics div {
+    margin: 2rem;
+}
+
+/********************* footer **************/
+footer p {
+    color: #8B8B8B;
+    font-size: 1rem;
+    margin: 0;
+}
+
+footer {
+    margin-bottom: 2rem;
+}
+
+/******************** media query *************/
+@media(min-width:600px) {
+    input {
+        width: 590px;
+    }
+
+    footer div {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media(min-width:800px) {
+    .nav-icon {
+        display: none;
+    }
+
+    header > div > div {
+        align-items: center;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        padding: 0;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        margin-left: 1rem;
+    }
+
+    nav ul li a {
+        display: block;
+        font-size: 1rem;
+    }
+
+    .blog-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blog-content section {
+        width: 32%;
+    }
+
+    .testimonials section {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 1rem;
+    }
+
+    .testimonials div {
+        grid-column: 1 / span 8;
+    }
+
+    .testimonials img {
+        width: 100%;
+        margin: 0;
+        grid-column: 9 / span 4;
+
+    }
+
+    .browse div {
+        flex-basis: 20%;
+    }
+
+    .statistics section{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 2rem 0;
+    }
+
+    .statistics h2 {
+        width: 100%;
+    }
+
+    .statistics div {
+        margin: 0;
+    }
+}
+
+@media(min-width:1050px) {
+    .container {
+        max-width: 1050px;
+        margin: 0 auto;
+    }
+
+    .banner {
+        padding-top: 25%;
+        padding-bottom: 13%;
+    }
+}
+
+/************** animation **************/
+@media(min-width:800px) {
+    @keyframes slideUp {
+        0% {transform: translateY(0);}
+        100% {transform: translateY(-5px);}
+    }
+
+    header a:hover {
+        
+        animation: slideUp 300ms forwards ease-in-out;
+    }
+    
+    .browse div {
+        transition: all 250ms ease-in-out;
+    }
+    
+    .browse div:hover {
+        transform: scale(1.1);
+    }
+    
+}
